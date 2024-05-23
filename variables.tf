@@ -30,7 +30,7 @@ variable "instance_type" {
 }
 
 variable "key_pair" {
-  description = "Name of the SSH key pair to associate with the EC2 instance."
+  description = "mykey.pem"
 }
 
 
