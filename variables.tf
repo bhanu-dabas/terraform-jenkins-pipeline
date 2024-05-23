@@ -29,6 +29,12 @@ variable "instance_type" {
    default     = "t2.micro"
 }
 
+variable "key_name" {
+    type        = string
+    description = "Name of key pair"
+    default     = "mykey.pem"
+}
+
 variable "name_tag" {
    type        = string
    description = "Name of the EC2 instance"
