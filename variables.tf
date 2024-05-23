@@ -30,7 +30,7 @@ variable "instance_type" {
 }
 
 variable "key_pair" {
-  description = "mykey.pem"
+  default = "mykey.pem"
 }
 
 
