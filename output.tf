@@ -7,12 +7,3 @@ output "instance_id" {
  value       = aws_instance.public_instance.id
  description = "Instance ID"
 }
-output "private_ip" {
-  value       = aws_instance.private_instance.private_ip
-  description = "Private IP Address of private EC2 instance"
-}
-
-output "private_instance_id" {
-  value       = aws_instance.private_instance.id
-  description = "Private Instance ID"
-}
